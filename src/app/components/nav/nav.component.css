@@ -1,0 +1,14 @@
+.navbar{
+  background-color: #373737;
+  color: #fff;
+}
+a{
+  color: #fff;
+}
+
+a:active:hover{
+  background-color: #8DC63F !important;
+}
+/* .nav-link:active{
+  background-color: #8DC63F !important;
+} */

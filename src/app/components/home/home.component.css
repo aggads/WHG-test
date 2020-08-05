@@ -1,0 +1,22 @@
+.navbar{
+  background-color: #373737;
+  color: #fff;
+}
+a{
+  color: #fff;
+}
+
+a:active:hover{
+  background-color: #8DC63F !important;
+}
+
+img, .card{
+  border-radius: 5%;
+  /* padding-bottom: 5%; */
+  /* width: 80%; */
+}
+
+.card{
+  width: 80%;
+  margin: 5%;
+}

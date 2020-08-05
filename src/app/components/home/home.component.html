@@ -1,0 +1,25 @@
+<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+  <div class="container">
+      <h1>
+        <a class="title" href="javascript:void();" (click)="filterList(null)">WHG</a>
+      </h1>
+      <ul class="nav justify-content-center">
+          <li class="nav-item"><a class="nav-link" href="javascript:void();" (click)="filterList('new')">New Games</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void();" (click)="filterList('slots')">Slots</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void();" (click)="filterList('blackjack')">Blackjack</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void();" (click)="filterList('roulette')">Roulette</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void();" (click)="filterList('poker')">Poker</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void();" (click)="filterList('other')">Other</a></li>
+      </ul>
+  </div>
+</nav>
+
+<div>
+  <div class="row">
+      <div *ngFor="let game of gamesList" class="col-4">
+        <div class="card">
+          <img [src]="game.image" class="card-img-top" alt="...">
+        </div>
+      </div>
+  </div>
+</div>
